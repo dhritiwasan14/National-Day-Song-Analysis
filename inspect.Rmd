@@ -21,7 +21,7 @@ library("RColorBrewer")
 ```
 
 ```{r}
-text <- readLines('songs/2007.txt')
+text <- readLines('songs/2011.txt')
 docs <- Corpus(VectorSource(text))
 inspect(docs)
 ```
